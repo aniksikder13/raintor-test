@@ -1,13 +1,13 @@
 
 import { Fragment } from "react";
 import Hero from "@/components/home/hero";
+import ListOfSkills from "@/components/home/listOfSkills";
 
 export default function Home() {
   return (
     <Fragment>
       <Hero />
-      <main className="max-w-[1440px] mx-auto px-2">
-      </main>
+      <ListOfSkills />
     </Fragment>
   );
 }

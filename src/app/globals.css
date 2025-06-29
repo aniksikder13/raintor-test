@@ -24,3 +24,13 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.swiper-wrapper {
+  align-items: stretch;
+}
+.swiper-slide {
+  display: flex !important;
+  flex-direction: column;
+  align-self: stretch;
+  height: auto !important;
+}
