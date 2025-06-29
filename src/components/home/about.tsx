@@ -8,7 +8,7 @@ import PrevWorkingFloat from './prevWorkingFloat';
 export default function About() {
   return (
     <section className="w-full relative">
-      <div className="max-w-[1180px] mx-auto px-2 pt-28">
+      <div className="max-w-[950px] mx-auto px-2 pt-28">
         <div className="flex justify-end w-full mb-8">
           <Button
             label="About"
@@ -19,7 +19,7 @@ export default function About() {
           />
         </div>
         <h1
-          className="text-8xl text-center mx-auto space-x-1 font-semibold w-full leading-36"
+          className="text-7xl text-center mx-auto space-x-1 font-semibold w-full leading-36"
           style={{ letterSpacing: "9px" }}
         >
           I’ve been{" "}

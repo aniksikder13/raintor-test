@@ -6,7 +6,7 @@ import { skillsList } from '@/utils/data';
 
 export default function ListOfSkills() {
   return (
-    <section className="max-w-[1440px] mx-auto px-10 pt-24 pb-8 -mt-56 bg-black rounded-4xl text-white">
+    <section className="max-w-[1440px] mx-auto px-10 pt-20 pb-10 -mt-56 bg-black rounded-4xl text-white">
       <Button
         label="Why Choose me"
         icon={<Arrow color="white" />}
@@ -15,7 +15,7 @@ export default function ListOfSkills() {
         iconStyle="border-white border rotate-90 p-2"
       />
       <div className="grid grid-cols-2 gap-4 mt-10">
-        <h1 className="text-7xl max-w-[500px]">My Extensive List of Skills</h1>
+        <h1 className="text-6xl max-w-[500px]">My Extensive List of Skills</h1>
         <div>
           <div className="flex justify-end">
             <p className="border-b-[1px] border-b-white text-right max-w-[370px] h-max text-lg pb-5">

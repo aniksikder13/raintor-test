@@ -10,11 +10,8 @@ import Image from 'next/image';
 export default function Hero() {
   return (
     <>
-      <section
-        className="w-full h-screen relative"
-
-      >
-        <div className="w-full max-w-[1440px] mx-auto lg:mt-36 md:mt-28">
+      <section className="w-full h-screen relative">
+        <div className="w-full max-w-[1410px] mx-auto lg:mt-36 md:mt-28">
           <h1 className="text-8xl font-semibold max-w-[950px] font-[space-grotesk] leading-35">
             Trusted{" "}
             <span className="rounded-xl bg-black text-white p-2">Partner</span>{" "}

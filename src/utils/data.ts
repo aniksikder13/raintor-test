@@ -43,7 +43,7 @@ export const prevWork = [
   { name: "awwwards" },
   { name: "facebook" },
   { name: "cssDesign" },
-  { name: "/thoughtworks" },
+  { name: "/thought" },
   { name: "autodesk" },
   {name: "csvWinner"}
 ];
