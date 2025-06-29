@@ -24,7 +24,7 @@ export default function ContactForm() {
 
   return (
     <form className="bg-black rounded-2xl px-6 py-10 text-white" onSubmit={formHandler}>
-      <div className="space-y-5">
+      <div className="space-y-7">
         <Input
           name="name"
           placeholder="Enter your name"
@@ -55,7 +55,7 @@ export default function ContactForm() {
           iconStyle="border-[white] border"
         />
       </div>
-      <div className="flex items-center space-x-6 mt-8">
+      <div className="flex items-center space-x-6 mt-12">
         <h5>@williamrey</h5>
         <ul className="flex items-center space-x-4">
           <li>
