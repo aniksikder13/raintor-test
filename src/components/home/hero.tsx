@@ -10,11 +10,12 @@ export default function Hero() {
   return (
     <>
       <section
-        className="w-full -z-10 min-h-screen bg-cover bg-no-repeat bg-center object-fill flex items-center justify-center absolute top-0 left-0"
+        className="w-full  min-h-screen bg-cover bg-no-repeat bg-center object-fill flex items-center justify-center absolute top-0 left-0"
         style={{
-          backgroundImage: "url(home-gradient.png.png)",
+          backgroundImage: "url(home-gradient.png)",
         }}
       >
+
         <div className="w-full max-w-[1440px] mx-auto">
           <h1 className="text-8xl font-semibold max-w-[950px] font-[space-grotesk] leading-35">
             Trusted{" "}
@@ -64,7 +65,7 @@ export default function Hero() {
           </div>
         </div>
       </section>
-      <div className='h-screen' />
+      <div className='h-screen -z-20 relative' />
     </>
   );
 }
