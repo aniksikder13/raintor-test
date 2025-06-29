@@ -1,61 +1,73 @@
 // Skills List
 export const skillsList = [
   {
-    icon: "💻",
-    headline: "Frontend Development",
+    icon: "/react.png",
+    headline: "HTML & CSS",
     summary:
-      "Building responsive and accessible user interfaces using React, Vue, or Angular.",
+      "Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis",
   },
   {
-    icon: "⚙️",
-    headline: "Backend & APIs",
+    icon: "/react.png",
+    headline: "Javascript",
     summary:
-      "Designing scalable server-side logic and REST/GraphQL APIs with Node.js, Django, or .NET.",
+      "Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis",
   },
   {
-    icon: "🛠️",
-    headline: "DevOps & CI/CD",
+    icon: "/react.png",
+    headline: "Webflow",
     summary:
-      "Automating builds, deployments, and infrastructure using Docker, Kubernetes, and GitHub Actions.",
+      "Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis",
   },
   {
-    icon: "☁️",
-    headline: "Cloud Architecture",
+    icon: "/react.png",
+    headline: "HTML & CSS",
     summary:
-      "Setting up reliable, secure, and cost-effective cloud solutions on AWS, Azure, or GCP.",
+      "Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis",
   },
   {
-    icon: "🤖",
-    headline: "AI & Machine Learning",
+    icon: "/react.png",
+    headline: "Javascript",
     summary:
-      "Implementing models and pipelines in Python using TensorFlow, PyTorch, or scikit-learn.",
+      "Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis",
   },
   {
-    icon: "📱",
-    headline: "Mobile Development",
+    icon: "/react.png",
+    headline: "Webflow",
     summary:
-      "Creating cross‑platform mobile apps with Flutter or React Native.",
-  },
-  {
-    icon: "🔐",
-    headline: "Security & Auth",
-    summary:
-      "Enforcing secure authentication, encryption, and data protection best practices.",
-  },
-  {
-    icon: "📊",
-    headline: "Data Analytics",
-    summary:
-      "Visualizing and analyzing data using Pandas, SQL, Power BI, or Tableau.",
+      "Duis aute irure dolor in reprehenderit in voluptate. Ut enim ad minim veniam, quis",
   },
 ];
 
-export const logos = [
+// Prev works
+export const prevWork = [
   { name: "awwwards" },
   { name: "facebook" },
-  { name: "css-winner" },
-  { name: "thoughtworks" },
+  { name: "cssDesign" },
+  { name: "/thoughtworks" },
   { name: "autodesk" },
-  { name: "cssda" },
-  { name: "opar" },
+  {name: "csvWinner"}
+];
+
+//Working process
+export const workingProcess = [
+  {
+    name: "Discovery",
+    summary:
+      "We start every new client interaction with an in-depth discovery call where we get to know each other, discuss your current and future objectives, and recommend the best course of action.",
+  },
+  {
+    name: "Strategy",
+    summary:
+      "Every end-to-end project of ours begins with a tEspoke pre-build strateu. From brand ID consultation to in-depth ccxle reviews we're here to set the stage for success.",
+  },
+  {
+    name: "Design",
+    summary:
+      "After we have a comprehensive understanding of your brand, we'll be ready to move onto design. Each page or will be designed, reviewed, and given your stamp of approval.",
+  },
+  {
+    name: "Build",
+    summary:
+      "Whether we've just finished designing your new site or you're handing off finished designs for us to develop in Webflow, we're here to apply our trusted development process to your project.",
+  }
 ];

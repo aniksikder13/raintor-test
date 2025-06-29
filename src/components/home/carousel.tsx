@@ -9,6 +9,7 @@ import "swiper/css/navigation";
 
 import Button from "../ui/button";
 import Arrow from "../icons/arrow";
+import Image from "next/image";
 
 // Props types
 interface CarouselItem {
@@ -82,7 +83,13 @@ export default function Carousel({data}:Props) {
                   transition-transform duration-300 ease-out
                   hover:scale-105 hover:rotate-5 h-full"
               >
-                <h4 className="text-7xl">{item?.icon}</h4>
+                {/* <h4 className="text-7xl">{item?.icon}</h4> */}
+                <Image
+                  width={100}
+                  height={100}
+                  src={item?.icon}
+                  alt={item?.headline}
+                />
                 <h1 className="pt-7 pb-5 font-bold text-2xl">
                   {item?.headline}
                 </h1>
