@@ -5,18 +5,16 @@ import Twitter from '../icons/twitter';
 import Link from 'next/link';
 import Button from '../ui/button';
 import Phone from '../icons/phone';
+import Image from 'next/image';
 
 export default function Hero() {
   return (
     <>
       <section
-        className="w-full  min-h-screen bg-cover bg-no-repeat bg-center object-fill flex items-center justify-center absolute top-0 left-0"
-        style={{
-          backgroundImage: "url(home-gradient.png)",
-        }}
-      >
+        className="w-full h-screen relative"
 
-        <div className="w-full max-w-[1440px] mx-auto">
+      >
+        <div className="w-full max-w-[1440px] mx-auto lg:mt-36 md:mt-28">
           <h1 className="text-8xl font-semibold max-w-[950px] font-[space-grotesk] leading-35">
             Trusted{" "}
             <span className="rounded-xl bg-black text-white p-2">Partner</span>{" "}
@@ -65,7 +63,14 @@ export default function Hero() {
           </div>
         </div>
       </section>
-      <div className='h-screen -z-20 relative' />
+      <Image
+        src="/home-gradient.png"
+        draggable="false"
+        width={1920}
+        height={670}
+        alt="gradient"
+        className="w-full absolute top-0 left-0 -z-10 object-fill"
+      />
     </>
   );
 }

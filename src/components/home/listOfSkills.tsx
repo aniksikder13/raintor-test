@@ -6,7 +6,7 @@ import { skillsList } from '@/utils/data';
 
 export default function ListOfSkills() {
   return (
-    <section className="max-w-[1440px] mx-auto px-10 pt-24 pb-8 -mt-30 bg-black rounded-4xl text-white">
+    <section className="max-w-[1440px] mx-auto px-10 pt-24 pb-8 -mt-56 bg-black rounded-4xl text-white">
       <Button
         label="Why Choose me"
         icon={<Arrow color="white" />}
@@ -26,6 +26,7 @@ export default function ListOfSkills() {
         </div>
       </div>
       <div className="-mt-16">
+        {/* Carousel content */}
         <Carousel data={skillsList} />
       </div>
     </section>

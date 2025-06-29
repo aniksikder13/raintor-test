@@ -10,6 +10,7 @@ import "swiper/css/navigation";
 import Button from "../ui/button";
 import Arrow from "../icons/arrow";
 
+// Props types
 interface CarouselItem {
   icon: string;
   headline: string;
@@ -26,6 +27,7 @@ export default function Carousel({data}:Props) {
 
   return (
     <div>
+      {/* Navigation Buttons */}
       <ul className="flex justify-end items-center space-x-4 mt-8">
         <li>
           <Button
@@ -71,6 +73,7 @@ export default function Carousel({data}:Props) {
           }
         }}
       >
+        {/* Mapping all data here */}
         {data?.map((item, index) => (
           <SwiperSlide key={index}>
             <div className="py-10 h-full">
