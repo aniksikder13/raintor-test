@@ -13,7 +13,7 @@ const PrevWorkingFloat = () => {
             return (
               <li
                 key={index}
-                className={`text-center rounded-full bg-white shadow-lg hover:bg-black border-2 hover:border-[white] p-4 ${cls}`}
+                className={`text-center rounded-full shadow-lg hover:bg-black border-2 cursor-pointer hover:text-[white] p-4 ${cls}`}
               >
                 {logo.name}
               </li>
