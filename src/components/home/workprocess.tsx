@@ -17,7 +17,7 @@ export default function WorkProcess() {
         />
         <h1 className="text-6xl">My Extensive List of Skills</h1>
       </div>
-      <ul className="grid grid-cols-2 gap-2 mt-14">
+      <ul className="grid grid-cols-2 gap-4 mt-14">
         {workingProcess?.map((item, index) => (
           <li
             key={index}
@@ -30,7 +30,7 @@ export default function WorkProcess() {
                 {item?.name}
               </label>
               <Link href="#" className="flex items-center space-x-2">
-                <span className="inline-block stroke-current text-white group-hover:text-black transition-colors duration-200">
+                <span className="stroke-current text-white group-hover:text-black transition-colors duration-200">
                   <Arrow />
                 </span>
                 <span className="underline">Read more</span>
