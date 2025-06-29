@@ -49,3 +49,13 @@ export const skillsList = [
       "Visualizing and analyzing data using Pandas, SQL, Power BI, or Tableau.",
   },
 ];
+
+export const logos = [
+  { name: "awwwards" },
+  { name: "facebook" },
+  { name: "css-winner" },
+  { name: "thoughtworks" },
+  { name: "autodesk" },
+  { name: "cssda" },
+  { name: "opar" },
+];
